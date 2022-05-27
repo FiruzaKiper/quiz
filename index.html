@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flags</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<p id="heading"></p>
+<form>
+
+   <div class="questionOne">
+    <label>1. What country does this flag belong to?</label>
+    <div>
+        <img class="img" src="https://virlandii.ru/wp-content/uploads/2020/04/irish-flag.jpg" alt="ireland" width="250px">
+    </div>
+    <ul>
+        <li>
+            <input type="radio" name="question1">Island
+        </li>
+        <li>
+        <span><input type="radio" name="question1" id="answer1">Ireland</span>
+        </li>
+        <li>
+            <input type="radio" name="question1">France
+        </li>
+        <li>
+            <input type="radio" name="question1">India
+        </li>
+    </ul>
+   </div>
+
+   <div class="questionTwo">
+       <label>2. Which country has a star on its flag:</label>
+       <ul>
+           <li>
+               <input type="radio" name="question2">Indonesia
+           </li>
+           <li>
+               <input type="radio" name="question2">Georgia
+           </li>
+           <li>
+            <span><input type="radio" name="question2" id="answer2">Israel</span>
+           </li>
+           <li>
+               <input type="radio" name="question2">Albania
+           </li>
+       </ul>
+   </div>
+
+   <div class="questionThree">
+       <label>3. Which flag is belong to India?</label>
+       <ul>
+           <li>
+               <input type="radio" name="question3"> а) :<br><img src="https://images.vector-images.com/116/f1783_niger.gif" alt="niger" width="100px" height="50px">
+           </li>
+           <li>
+               <input type="radio" name="question3"> б)<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/250px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" alt="ivoryCoast" width="100px" height="50px">
+           </li>
+           <li>
+            <span><input type="radio" name="question3" id="answer3"> в)<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/250px-Flag_of_India.svg.png" alt="india" width="100px" height="50px"></span>
+           </li>
+           <li>
+               <input type="radio" name="question3"> г)<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/250px-Flag_of_Ireland.svg.png" alt="ireland" width="100px" height="50px">
+           </li>
+       </ul>
+   </div>
+
+   <div class="questionFour">
+       <label>4. Which flag does not have a cross?:</label>
+       <ul>
+           <li>
+               <input type="radio" name="question4">Denmark
+           </li>
+           <li>
+            <span><input type="radio" name="question4" id="answer4">Croatia</span>
+           </li>
+           <li>
+               <input type="radio" name="question4">Switzerland
+           </li>
+           <li>
+               <input type="radio" name="question4">Island
+           </li>
+       </ul>
+   </div>
+
+   <div class="questionFive">
+       <label>5. Which country does this flag belong to??</label>
+    <div>
+        <img class="img" src="https://autogear.ru/misc/i/gallery/40779/1260724.jpg" alt="southSudan" width="250px">
+    </div>
+       <ul>
+           <li>
+            <span><input type="radio" name="question5" id="answer5">South Sudan</span>
+           </li>
+           <li>
+               <input type="radio" name="question5">Egypt
+           </li>
+           <li>
+               <input type="radio" name="question5">Sudan
+           </li>
+           <li>
+               <input type="radio" name="question5">Algeria
+           </li>
+       </ul>
+   </div>
+
+   <div class="questionSix">
+       <label>6. What country has an Kalashnikov assault rifle on its flag?</label>
+       <ul>
+           <li>
+               <input type="radio" name="question6">Cape Verde
+           </li>
+           <li>
+               <input type="radio" name="question6">Tunis
+           </li>
+           <li>
+               <input type="radio" name="question6">Kenya
+           </li>
+           <li>
+            <span><input type="radio" name="question6" id="answer6">Mozambique</span>
+           </li>
+       </ul>
+   </div>
+
+   <div class="questionSeven">
+       <label>7. The only non-quadrilateral flag in the world:</label>
+       <div>
+           <img class="img" src="https://militaryarms.ru/wp-content/uploads/2021/08/c5c0e7673f9f05a59c974d494ae9b71c890e631er1-1160-773v2_hq.jpg" alt="nepal" width="250px">
+       </div>
+       <ul>
+           <li>
+               <input type="radio" name="question7">Flag of Switzerland
+           </li>
+           <li>
+            <span><input type="radio" name="question7" id="answer7">Flag of Nepal</span>
+           </li>
+           <li>
+               <input type="radio" name="question7">Flag of Austria
+           </li>
+           <li>
+               <input type="radio" name="question7">Flag of Iran
+           </li>
+       </ul>
+   </div>
+
+<button type="submit" class="btn">Result</button>
+   <p id="show"></p>
+   
+</form>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
